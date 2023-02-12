@@ -208,10 +208,51 @@
 
 /* section 2 */
 
-.section2 {
+.section2{
+    padding: 50px 100px;
+    height: 30vh;
+    background: linear-gradient(
+      to top,
+      white 0%,
+      white 50%,
+      black 50%,
+      black 100%
+    );
+}
+.sec2-sub {
     display: flex;
-    justify-content: space-evenly
+    justify-content: center ;
+    align-items: center;
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: red;
+    gap: 10px;
+}
+.sec2-para {
+    border-left: 2px solid black;
+    padding-left: 30px;
+    color: white;
 }
 .sec2-icon {
     width: 100px;
+}
+.sec2-small-des-info{
+    text-align: center;
+    color: white;
+}
+
+.sec2-btn {
+    text-align: center;
+}
+
+.sec3-cards {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+
+.sec3-card-items {
+    /* display: none; */
+    width: 20%;
 }
